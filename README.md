@@ -2,7 +2,7 @@
 
 **Shadow Linker** is a stealth-based first-person horror-puzzle game developed in Unity. Dive into a dark world filled with patrolling guards, haunted forests, and mysterious teleportation abilities. Blend into shadows, avoid detection, and escape through eerie levels using your unique power: *link to the shadows.*
 
-![Shadow Linker Banner](./Screenshots/banner.png)
+![Shadow Linker Banner](./Assets/Art/UI/game%20logo.png)
 
 ---
 

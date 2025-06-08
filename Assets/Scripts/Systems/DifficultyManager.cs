@@ -7,7 +7,7 @@ public class DifficultyManager : MonoBehaviour
 {
     public static DifficultyManager Instance { get; private set; }
 
-    public GameDifficulty currentDifficulty;
+    public GameDifficulty currentDifficulty = GameDifficulty.Normal;        // default setting
 
     public DifficultySettings easySettings;
     public DifficultySettings normalSettings;
@@ -41,6 +41,9 @@ public class DifficultyManager : MonoBehaviour
 
         difficultyDropdown.value = saved;
         difficultyDropdown.onValueChanged.AddListener(SetDifficulty);
+
+        // apply default setting for the first time the game loads if there is no saved setting
+        SetDifficulty(saved);
     }
 
     public void SetDifficulty(int value)

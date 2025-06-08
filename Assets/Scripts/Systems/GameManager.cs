@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         menuActive = !menuActive;
         menuUI.SetActive(menuActive);
         Time.timeScale = menuActive ? 0 : 1;
-        if (menuActive) ShowCursor();
+        ShowCursor(menuActive);
     }
 
     public void TriggerLose()
@@ -68,10 +68,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0.05f;
     }
 
-    void ShowCursor()
+    void ShowCursor(bool show = true)
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = show ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = show;
     }
 
     public void ReloadLevel()

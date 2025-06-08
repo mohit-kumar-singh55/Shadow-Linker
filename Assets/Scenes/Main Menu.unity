@@ -678,24 +678,24 @@ MonoBehaviour:
 
     Space.......Jump
 
-    Left
-    Ctrl...Crouch
+    C...............Crouch
 
-    E (Hold)....Shadow Link (Teleport)
-
-
-
-    *** Shadow Link
-    Mechanic ***
+    E
+    (Hold)....Shadow Link (Teleport)
 
 
-    -> Crouch under a burning wall torch to become invisible to
-    guards.
 
-    -> While crouched in the shadows, hold E to aim teleport.
+    *** Shadow Link Mechanic ***
+
 
     ->
-    Release E to teleport to the nearest similar shadow spot.'
+    Crouch under a burning wall torch to become invisible to guards.
+
+    -> While
+    crouched in the shadows, hold E to aim teleport.
+
+    -> Release E to teleport
+    to the nearest similar shadow spot.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d20051fae0acf9946b22a5e880010fc8, type: 2}
   m_sharedMaterial: {fileID: 1666748051781458139, guid: d20051fae0acf9946b22a5e880010fc8, type: 2}
